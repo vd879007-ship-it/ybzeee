@@ -195,4 +195,5 @@ npm run report
 3. **Safe Resumption**: In case of network interruption or operator abort (`Ctrl + C`), the migration checkpoint (`checkpoint.json`) guarantees no duplicate products are created upon restart.
 4. **SKU Consistency**: All variants of a fashion garment maintain the same SKU as specified in the Firestore product catalog.
 #   y b z e e e  
+ #   y b z e e e  
  
