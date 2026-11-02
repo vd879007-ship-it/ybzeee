@@ -36,7 +36,7 @@ import {
 import ProductCard from '@/components/ui/ProductCard';
 import { useCart } from '@/providers/CartProvider';
 import { useWishlist } from '@/providers/WishlistProvider';
-import { getProductBySlug, CatalogProduct } from '@/data/products';
+import { getProductBySlug, getAllProducts, CatalogProduct } from '@/data/products';
 import { getSafeImageUrl } from '@/lib/utils';
 
 const SERVICABLE_PINCODES: Record<string, { days: number; cod: boolean; city: string }> = {
@@ -151,7 +151,7 @@ export default function ProductDetailPage() {
   const [relatedItems, setRelatedItems] = useState<CatalogProduct[]>(() => {
     try {
       const all = getAllProducts();
-      return all.filter((p) => p.slug !== slug).slice(0, 4);
+      return all.filter((p: CatalogProduct) => p.slug !== slug).slice(0, 4);
     } catch {
       return [];
     }
