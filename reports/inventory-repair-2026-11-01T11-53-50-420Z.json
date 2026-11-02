@@ -1,0 +1,219 @@
+{
+  "repairedAt": "2026-11-01T11:53:50.420Z",
+  "locationId": "gid://shopify/Location/90879655990",
+  "locationName": "Shop location",
+  "totalAdjustmentUnits": 60,
+  "allVerified": true,
+  "products": [
+    {
+      "productName": "SBF063",
+      "docId": "Abox1VoFIKikvp4iy0BI",
+      "shopifyProductId": "gid://shopify/Product/9626301825078",
+      "expectedTotalStock": 50,
+      "syncResult": {
+        "updatedCount": 1,
+        "totalStockAssigned": 10,
+        "verifiedLevels": [
+          {
+            "title": "Wine Red / M",
+            "size": "M",
+            "inventoryItemId": "gid://shopify/InventoryItem/49812600684598",
+            "expectedQuantity": 10,
+            "actualAvailable": 10,
+            "verified": true
+          }
+        ],
+        "errors": []
+      },
+      "verified": true,
+      "variants": [
+        {
+          "variantId": "gid://shopify/ProductVariant/48427266375734",
+          "title": "Wine Red / M",
+          "size": "M",
+          "color": "Wine Red",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812600684598",
+          "currentAvailable": 0,
+          "expectedQuantity": 10,
+          "delta": 10,
+          "action": "ADJUST (0 -> 10)",
+          "postAvailable": 10,
+          "verified": true
+        },
+        {
+          "variantId": "gid://shopify/ProductVariant/48427266408502",
+          "title": "Wine Red / L",
+          "size": "L",
+          "color": "Wine Red",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812600717366",
+          "currentAvailable": 10,
+          "expectedQuantity": 10,
+          "delta": 0,
+          "action": "NO CHANGE",
+          "postAvailable": 10,
+          "verified": true
+        },
+        {
+          "variantId": "gid://shopify/ProductVariant/48427266441270",
+          "title": "Wine Red / XL",
+          "size": "XL",
+          "color": "Wine Red",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812600750134",
+          "currentAvailable": 10,
+          "expectedQuantity": 10,
+          "delta": 0,
+          "action": "NO CHANGE",
+          "postAvailable": 10,
+          "verified": true
+        },
+        {
+          "variantId": "gid://shopify/ProductVariant/48427266474038",
+          "title": "Wine Red / 2XL",
+          "size": "2XL",
+          "color": "Wine Red",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812600782902",
+          "currentAvailable": 10,
+          "expectedQuantity": 10,
+          "delta": 0,
+          "action": "NO CHANGE",
+          "postAvailable": 10,
+          "verified": true
+        },
+        {
+          "variantId": "gid://shopify/ProductVariant/48427266506806",
+          "title": "Wine Red / 3XL",
+          "size": "3XL",
+          "color": "Wine Red",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812600815670",
+          "currentAvailable": 10,
+          "expectedQuantity": 10,
+          "delta": 0,
+          "action": "NO CHANGE",
+          "postAvailable": 10,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "productName": "SBF062",
+      "docId": "bF6IouBDcJ3rk5XudIlw",
+      "shopifyProductId": "gid://shopify/Product/9626314571830",
+      "expectedTotalStock": 50,
+      "syncResult": {
+        "updatedCount": 5,
+        "totalStockAssigned": 50,
+        "verifiedLevels": [
+          {
+            "title": "Indigo Blue / M",
+            "size": "M",
+            "inventoryItemId": "gid://shopify/InventoryItem/49812634239030",
+            "expectedQuantity": 10,
+            "actualAvailable": 10,
+            "verified": true
+          },
+          {
+            "title": "Indigo Blue / L",
+            "size": "L",
+            "inventoryItemId": "gid://shopify/InventoryItem/49812634271798",
+            "expectedQuantity": 10,
+            "actualAvailable": 10,
+            "verified": true
+          },
+          {
+            "title": "Indigo Blue / XL",
+            "size": "XL",
+            "inventoryItemId": "gid://shopify/InventoryItem/49812634304566",
+            "expectedQuantity": 10,
+            "actualAvailable": 10,
+            "verified": true
+          },
+          {
+            "title": "Indigo Blue / 2XL",
+            "size": "2XL",
+            "inventoryItemId": "gid://shopify/InventoryItem/49812634337334",
+            "expectedQuantity": 10,
+            "actualAvailable": 10,
+            "verified": true
+          },
+          {
+            "title": "Indigo Blue / 3XL",
+            "size": "3XL",
+            "inventoryItemId": "gid://shopify/InventoryItem/49812634370102",
+            "expectedQuantity": 10,
+            "actualAvailable": 10,
+            "verified": true
+          }
+        ],
+        "errors": []
+      },
+      "verified": true,
+      "variants": [
+        {
+          "variantId": "gid://shopify/ProductVariant/48427299930166",
+          "title": "Indigo Blue / M",
+          "size": "M",
+          "color": "Indigo Blue",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812634239030",
+          "currentAvailable": 0,
+          "expectedQuantity": 10,
+          "delta": 10,
+          "action": "ADJUST (0 -> 10)",
+          "postAvailable": 10,
+          "verified": true
+        },
+        {
+          "variantId": "gid://shopify/ProductVariant/48427299962934",
+          "title": "Indigo Blue / L",
+          "size": "L",
+          "color": "Indigo Blue",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812634271798",
+          "currentAvailable": 0,
+          "expectedQuantity": 10,
+          "delta": 10,
+          "action": "ADJUST (0 -> 10)",
+          "postAvailable": 10,
+          "verified": true
+        },
+        {
+          "variantId": "gid://shopify/ProductVariant/48427299995702",
+          "title": "Indigo Blue / XL",
+          "size": "XL",
+          "color": "Indigo Blue",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812634304566",
+          "currentAvailable": 0,
+          "expectedQuantity": 10,
+          "delta": 10,
+          "action": "ADJUST (0 -> 10)",
+          "postAvailable": 10,
+          "verified": true
+        },
+        {
+          "variantId": "gid://shopify/ProductVariant/48427300028470",
+          "title": "Indigo Blue / 2XL",
+          "size": "2XL",
+          "color": "Indigo Blue",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812634337334",
+          "currentAvailable": 0,
+          "expectedQuantity": 10,
+          "delta": 10,
+          "action": "ADJUST (0 -> 10)",
+          "postAvailable": 10,
+          "verified": true
+        },
+        {
+          "variantId": "gid://shopify/ProductVariant/48427300061238",
+          "title": "Indigo Blue / 3XL",
+          "size": "3XL",
+          "color": "Indigo Blue",
+          "inventoryItemId": "gid://shopify/InventoryItem/49812634370102",
+          "currentAvailable": 0,
+          "expectedQuantity": 10,
+          "delta": 10,
+          "action": "ADJUST (0 -> 10)",
+          "postAvailable": 10,
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

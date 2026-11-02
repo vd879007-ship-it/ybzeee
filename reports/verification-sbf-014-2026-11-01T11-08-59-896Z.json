@@ -1,0 +1,219 @@
+{
+  "verifiedAt": "2026-11-01T11:08:59.896Z",
+  "firestoreDocId": "4NzmKBXMMk79mq3oX5wW",
+  "shopifyProductId": "gid://shopify/Product/9626216038454",
+  "handle": "sbf-014",
+  "status": "PASSED",
+  "fieldChecks": [
+    {
+      "field": "Title",
+      "sourceVal": "SBF 014",
+      "shopifyVal": "SBF 014",
+      "status": "PASS"
+    },
+    {
+      "field": "Handle",
+      "sourceVal": "sbf-014",
+      "shopifyVal": "sbf-014",
+      "status": "PASS"
+    },
+    {
+      "field": "Status",
+      "sourceVal": "ACTIVE",
+      "shopifyVal": "ACTIVE",
+      "status": "PASS"
+    },
+    {
+      "field": "Vendor",
+      "sourceVal": "YEZ BEE",
+      "shopifyVal": "YEZ BEE",
+      "status": "PASS"
+    },
+    {
+      "field": "Product Type",
+      "sourceVal": "FEEDING",
+      "shopifyVal": "FEEDING",
+      "status": "PASS"
+    },
+    {
+      "field": "Valid Media Count",
+      "sourceVal": 5,
+      "shopifyVal": 5,
+      "status": "PASS"
+    },
+    {
+      "field": "Variant Count",
+      "sourceVal": 5,
+      "shopifyVal": 5,
+      "status": "PASS"
+    }
+  ],
+  "variantChecks": [
+    {
+      "shopifyVariantId": "gid://shopify/ProductVariant/48427055972406",
+      "title": "Blush Pink / M",
+      "size": "M",
+      "color": "Blush Pink",
+      "sku": "SBF 014",
+      "expectedSku": "SBF 014",
+      "skuMatches": true,
+      "price": "999.00",
+      "expectedPrice": "999.00",
+      "priceMatches": true,
+      "compareAtPrice": "1499.00",
+      "expectedCompareAtPrice": "1499.00",
+      "comparePriceMatches": true,
+      "shopifyAvailable": 1,
+      "expectedStock": 1,
+      "stockMatches": true,
+      "inventoryItemId": "gid://shopify/InventoryItem/49812390281270",
+      "status": "PASS"
+    },
+    {
+      "shopifyVariantId": "gid://shopify/ProductVariant/48427056005174",
+      "title": "Blush Pink / L",
+      "size": "L",
+      "color": "Blush Pink",
+      "sku": "SBF 014",
+      "expectedSku": "SBF 014",
+      "skuMatches": true,
+      "price": "999.00",
+      "expectedPrice": "999.00",
+      "priceMatches": true,
+      "compareAtPrice": "1499.00",
+      "expectedCompareAtPrice": "1499.00",
+      "comparePriceMatches": true,
+      "shopifyAvailable": 0,
+      "expectedStock": 0,
+      "stockMatches": true,
+      "inventoryItemId": "gid://shopify/InventoryItem/49812390314038",
+      "status": "PASS"
+    },
+    {
+      "shopifyVariantId": "gid://shopify/ProductVariant/48427056037942",
+      "title": "Blush Pink / XL",
+      "size": "XL",
+      "color": "Blush Pink",
+      "sku": "SBF 014",
+      "expectedSku": "SBF 014",
+      "skuMatches": true,
+      "price": "999.00",
+      "expectedPrice": "999.00",
+      "priceMatches": true,
+      "compareAtPrice": "1499.00",
+      "expectedCompareAtPrice": "1499.00",
+      "comparePriceMatches": true,
+      "shopifyAvailable": 1,
+      "expectedStock": 1,
+      "stockMatches": true,
+      "inventoryItemId": "gid://shopify/InventoryItem/49812390346806",
+      "status": "PASS"
+    },
+    {
+      "shopifyVariantId": "gid://shopify/ProductVariant/48427056070710",
+      "title": "Blush Pink / 2XL",
+      "size": "2XL",
+      "color": "Blush Pink",
+      "sku": "SBF 014",
+      "expectedSku": "SBF 014",
+      "skuMatches": true,
+      "price": "999.00",
+      "expectedPrice": "999.00",
+      "priceMatches": true,
+      "compareAtPrice": "1499.00",
+      "expectedCompareAtPrice": "1499.00",
+      "comparePriceMatches": true,
+      "shopifyAvailable": 1,
+      "expectedStock": 1,
+      "stockMatches": true,
+      "inventoryItemId": "gid://shopify/InventoryItem/49812390379574",
+      "status": "PASS"
+    },
+    {
+      "shopifyVariantId": "gid://shopify/ProductVariant/48427056103478",
+      "title": "Blush Pink / 3XL",
+      "size": "3XL",
+      "color": "Blush Pink",
+      "sku": "SBF 014",
+      "expectedSku": "SBF 014",
+      "skuMatches": true,
+      "price": "999.00",
+      "expectedPrice": "999.00",
+      "priceMatches": true,
+      "compareAtPrice": "1499.00",
+      "expectedCompareAtPrice": "1499.00",
+      "comparePriceMatches": true,
+      "shopifyAvailable": 1,
+      "expectedStock": 1,
+      "stockMatches": true,
+      "inventoryItemId": "gid://shopify/InventoryItem/49812390412342",
+      "status": "PASS"
+    }
+  ],
+  "metafieldChecks": [
+    {
+      "key": "fabric",
+      "expected": "100% Pure Cotton",
+      "live": "100% Pure Cotton",
+      "status": "PASS"
+    },
+    {
+      "key": "fit",
+      "expected": "Relaxed Fit",
+      "live": "Relaxed Fit",
+      "status": "PASS"
+    },
+    {
+      "key": "occasion",
+      "expected": "Casual Wear",
+      "live": "Casual Wear",
+      "status": "PASS"
+    },
+    {
+      "key": "pattern",
+      "expected": "Printed",
+      "live": "Printed",
+      "status": "PASS"
+    },
+    {
+      "key": "feeding_friendly",
+      "expected": "true",
+      "live": "true",
+      "status": "PASS"
+    },
+    {
+      "key": "maternity",
+      "expected": "true",
+      "live": "true",
+      "status": "PASS"
+    },
+    {
+      "key": "care_instructions",
+      "expected": "[\"Hand wash cold with gentle detergent\"]",
+      "live": "[\"Hand wash cold with gentle detergent\"]",
+      "status": "PASS"
+    },
+    {
+      "key": "short_description",
+      "expected": "RAW SILK FEEDING MAXI",
+      "live": "RAW SILK FEEDING MAXI",
+      "status": "PASS"
+    },
+    {
+      "key": "firestore_id",
+      "expected": "4NzmKBXMMk79mq3oX5wW",
+      "live": "4NzmKBXMMk79mq3oX5wW",
+      "status": "PASS"
+    },
+    {
+      "key": "original_slug",
+      "expected": "sbf-014",
+      "live": "sbf-014",
+      "status": "PASS"
+    }
+  ],
+  "warnings": [
+    "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+  ],
+  "errors": []
+}

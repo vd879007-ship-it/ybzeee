@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D48B"/>
+      <stop offset="50%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#A8882E"/>
+    </linearGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A84C"/>
+      <stop offset="50%" stop-color="#F5E6C8"/>
+      <stop offset="100%" stop-color="#C9A84C"/>
+    </linearGradient>
+  </defs>
+  <!-- Crown icon -->
+  <g transform="translate(20, 10)">
+    <path d="M30 60 L0 20 L15 35 L30 10 L45 35 L60 20 L30 60Z" fill="url(#goldGrad)" opacity="0.9"/>
+    <circle cx="30" cy="12" r="4" fill="#E8D48B"/>
+    <rect x="12" y="60" width="36" height="6" rx="3" fill="url(#goldGrad)" opacity="0.6"/>
+  </g>
+  <!-- YEZ text -->
+  <text x="80" y="58" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="700" fill="#1A1A1A" letter-spacing="8">YEZ</text>
+  <!-- BEE text -->
+  <text x="80" y="95" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="600" fill="url(#goldGrad)" letter-spacing="12">BEE</text>
+  <!-- FASHION text -->
+  <text x="80" y="128" font-family="'Inter', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#9C9380" letter-spacing="14">FASHION</text>
+  <!-- Gold accent line -->
+  <rect x="80" y="105" width="260" height="1" fill="url(#goldShine)" opacity="0.5"/>
+  <!-- Small bee icon -->
+  <g transform="translate(345, 78) scale(0.6)">
+    <ellipse cx="20" cy="20" rx="16" ry="10" fill="#C9A84C"/>
+    <ellipse cx="20" cy="16" rx="16" ry="10" fill="#1A1A1A"/>
+    <ellipse cx="20" cy="20" rx="16" ry="10" fill="#C9A84C" opacity="0.8"/>
+    <line x1="4" y1="20" x2="36" y2="20" stroke="#1A1A1A" stroke-width="1.5"/>
+    <line x1="4" y1="24" x2="36" y2="24" stroke="#1A1A1A" stroke-width="1.5"/>
+    <line x1="4" y1="16" x2="36" y2="16" stroke="#1A1A1A" stroke-width="1.5"/>
+    <ellipse cx="20" cy="13" rx="12" ry="6" fill="url(#goldGrad)" opacity="0.3"/>
+    <!-- Wings -->
+    <ellipse cx="12" cy="6" rx="8" ry="5" fill="#F5E6C8" opacity="0.6"/>
+    <ellipse cx="28" cy="6" rx="8" ry="5" fill="#F5E6C8" opacity="0.6"/>
+  </g>
+</svg>

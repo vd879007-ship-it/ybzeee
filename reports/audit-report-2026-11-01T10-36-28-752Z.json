@@ -1,0 +1,794 @@
+{
+  "auditTimestamp": "2026-11-01T10:36:28.752Z",
+  "catalogSummary": {
+    "totalProducts": 63,
+    "totalVariants": 327,
+    "totalStockUnits": 747,
+    "totalRawImages": 360,
+    "validCloudinaryImages": 332,
+    "base64ImagesSkipped": 28,
+    "uniqueHandlesCount": 63,
+    "handleCorrectionsCount": 1,
+    "crossProductDuplicateSkusCount": 8
+  },
+  "handleCorrections": [
+    {
+      "id": "nR4TE5wUp7MeT84t67P9",
+      "title": "SBF 057",
+      "originalSlug": "sbf-056",
+      "correctedHandle": "sbf-057",
+      "reason": "Collision on slug \"sbf-056\". Deterministically resolved to \"sbf-057\" derived from product title."
+    }
+  ],
+  "crossProductDuplicateSkus": [
+    {
+      "sku": "YZB-CAS-PCH-M",
+      "products": [
+        "\"SBF 024\" (JfLVvg4cTKC4uS0iDPZi, size: M)",
+        "\"036\" (sAUvSkoo9FgDVpHAkKKc, size: M)"
+      ]
+    },
+    {
+      "sku": "YZB-CAS-PCH-L",
+      "products": [
+        "\"SBF 024\" (JfLVvg4cTKC4uS0iDPZi, size: L)",
+        "\"036\" (sAUvSkoo9FgDVpHAkKKc, size: L)"
+      ]
+    },
+    {
+      "sku": "YZB-CAS-PCH-XL",
+      "products": [
+        "\"SBF 024\" (JfLVvg4cTKC4uS0iDPZi, size: XL)",
+        "\"036\" (sAUvSkoo9FgDVpHAkKKc, size: XL)"
+      ]
+    },
+    {
+      "sku": "YZB-SBF056-IND-M",
+      "products": [
+        "\"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: M)",
+        "\"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: M)"
+      ]
+    },
+    {
+      "sku": "YZB-SBF056-IND-L",
+      "products": [
+        "\"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: L)",
+        "\"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: L)"
+      ]
+    },
+    {
+      "sku": "YZB-SBF056-IND-XL",
+      "products": [
+        "\"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: XL)",
+        "\"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: XL)"
+      ]
+    },
+    {
+      "sku": "YZB-SBF056-IND-3XL",
+      "products": [
+        "\"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: 3XL)",
+        "\"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: 3XL)"
+      ]
+    },
+    {
+      "sku": "YZB-SBF056-IND-2XL",
+      "products": [
+        "\"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: 2XL)",
+        "\"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: 2XL)"
+      ]
+    }
+  ],
+  "productsWithNoImages": [
+    "\"SBF 024\" (JfLVvg4cTKC4uS0iDPZi)",
+    "\"036\" (sAUvSkoo9FgDVpHAkKKc)"
+  ],
+  "warnings": [
+    "Duplicate Firestore slug detected: \"sbf-056\" shared by: \"SBF 056\" (gHroa6YQWaVBjSnUJiqh) vs \"SBF 057\" (nR4TE5wUp7MeT84t67P9)",
+    "SKU \"YZB-CAS-PCH-M\" is shared across multiple products: \"SBF 024\" (JfLVvg4cTKC4uS0iDPZi, size: M) AND \"036\" (sAUvSkoo9FgDVpHAkKKc, size: M)",
+    "SKU \"YZB-CAS-PCH-L\" is shared across multiple products: \"SBF 024\" (JfLVvg4cTKC4uS0iDPZi, size: L) AND \"036\" (sAUvSkoo9FgDVpHAkKKc, size: L)",
+    "SKU \"YZB-CAS-PCH-XL\" is shared across multiple products: \"SBF 024\" (JfLVvg4cTKC4uS0iDPZi, size: XL) AND \"036\" (sAUvSkoo9FgDVpHAkKKc, size: XL)",
+    "SKU \"YZB-SBF056-IND-M\" is shared across multiple products: \"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: M) AND \"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: M)",
+    "SKU \"YZB-SBF056-IND-L\" is shared across multiple products: \"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: L) AND \"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: L)",
+    "SKU \"YZB-SBF056-IND-XL\" is shared across multiple products: \"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: XL) AND \"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: XL)",
+    "SKU \"YZB-SBF056-IND-3XL\" is shared across multiple products: \"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: 3XL) AND \"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: 3XL)",
+    "SKU \"YZB-SBF056-IND-2XL\" is shared across multiple products: \"SBF 056\" (gHroa6YQWaVBjSnUJiqh, size: 2XL) AND \"SBF 057\" (nR4TE5wUp7MeT84t67P9, size: 2XL)",
+    "Products with zero images: \"SBF 024\" (JfLVvg4cTKC4uS0iDPZi), \"036\" (sAUvSkoo9FgDVpHAkKKc)",
+    "Found 28 embedded base64 data URIs in Firestore that will be skipped in favor of Cloudinary HTTP URLs."
+  ],
+  "errors": [],
+  "products": [
+    {
+      "id": "2xcewteSVfrzcctS1qeY",
+      "title": "SBF 038",
+      "handle": "sbf-038",
+      "originalSlug": "sbf-038",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 038",
+      "variantsCount": 5,
+      "totalStock": 4,
+      "imagesCount": 6
+    },
+    {
+      "id": "4NzmKBXMMk79mq3oX5wW",
+      "title": "SBF 014",
+      "handle": "sbf-014",
+      "originalSlug": "sbf-014",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 014",
+      "variantsCount": 5,
+      "totalStock": 4,
+      "imagesCount": 5
+    },
+    {
+      "id": "61aOgJYkm9FFGJNKXVVg",
+      "title": "SBF 018",
+      "handle": "sbf-018",
+      "originalSlug": "sbf-018",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 018",
+      "variantsCount": 5,
+      "totalStock": 23,
+      "imagesCount": 5
+    },
+    {
+      "id": "6G5tq7UHwZMt7uA9lqN0",
+      "title": "Maternity dress feeding",
+      "handle": "maternity-dress-feeding",
+      "originalSlug": "maternity-dress-feeding",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-MATERN-LAV-M",
+      "variantsCount": 5,
+      "totalStock": 50,
+      "imagesCount": 6
+    },
+    {
+      "id": "7fPKVLhNthN1Uwz3iTYG",
+      "title": "SBF 020",
+      "handle": "sbf-020",
+      "originalSlug": "sbf-020",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 020",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 5
+    },
+    {
+      "id": "7ncwh0Baa5bloWjgF6Zi",
+      "title": "SBF 053",
+      "handle": "sbf-053",
+      "originalSlug": "sbf-053",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF053-MUS-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 4
+    },
+    {
+      "id": "94CbCnNqCspu6vzGLnKA",
+      "title": "SBF 029",
+      "handle": "sbf-029",
+      "originalSlug": "sbf-029",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 029",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 6
+    },
+    {
+      "id": "9H2wnK19eYUKs0uSdSv9",
+      "title": "SBF 031",
+      "handle": "sbf-031",
+      "originalSlug": "sbf-031",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 031",
+      "variantsCount": 5,
+      "totalStock": 3,
+      "imagesCount": 6
+    },
+    {
+      "id": "Abox1VoFIKikvp4iy0BI",
+      "title": "SBF063",
+      "handle": "sbf063",
+      "originalSlug": "sbf063",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF063-WIN-M",
+      "variantsCount": 5,
+      "totalStock": 50,
+      "imagesCount": 6
+    },
+    {
+      "id": "BLU1x3z8xl5ApcxDu51L",
+      "title": "SBF 003",
+      "handle": "sbf-003",
+      "originalSlug": "sbf-003",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-PURECO-EME-M",
+      "variantsCount": 5,
+      "totalStock": 16,
+      "imagesCount": 5
+    },
+    {
+      "id": "EB0b3bBAXsP4mL6TZbR5",
+      "title": "SBF 006",
+      "handle": "sbf-006",
+      "originalSlug": "sbf-006",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 006",
+      "variantsCount": 5,
+      "totalStock": 14,
+      "imagesCount": 5
+    },
+    {
+      "id": "HLeL25SdNir670wMzyYS",
+      "title": "SPF 055",
+      "handle": "spf-055",
+      "originalSlug": "spf-055",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SPF055-LAV-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 4
+    },
+    {
+      "id": "Hpwf16kpH10rDZaxh8sS",
+      "title": "SBF 047  FEEDING DRESS",
+      "handle": "sbf-047-feeding-dress",
+      "originalSlug": "sbf-047-feeding-dress",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 047",
+      "variantsCount": 5,
+      "totalStock": 9,
+      "imagesCount": 6
+    },
+    {
+      "id": "I7dzePLq4ShrcJfvruCJ",
+      "title": "SBF 001",
+      "handle": "sbf-001",
+      "originalSlug": "sbf-001",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF001-LAV-M",
+      "variantsCount": 5,
+      "totalStock": 43,
+      "imagesCount": 6
+    },
+    {
+      "id": "IXYMpraqGiVrkO5zD9Ty",
+      "title": "SBF 028",
+      "handle": "sbf-028",
+      "originalSlug": "sbf-028",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 028",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 6
+    },
+    {
+      "id": "IrujeJydeAcr6PeXAgQj",
+      "title": "SBF 043",
+      "handle": "sbf-043",
+      "originalSlug": "sbf-043",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 043",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 6
+    },
+    {
+      "id": "J2DK47qeFrkcjXYNuAcK",
+      "title": "SBF 032",
+      "handle": "sbf-032",
+      "originalSlug": "sbf-032",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-YEZBEE-PEA-M",
+      "variantsCount": 5,
+      "totalStock": 4,
+      "imagesCount": 6
+    },
+    {
+      "id": "JCSPXcRq0U66CN43tS3g",
+      "title": "SBF 041",
+      "handle": "sbf-041",
+      "originalSlug": "sbf-041",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 041",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 6
+    },
+    {
+      "id": "JT7MGpJ2uTg7Ey1xpaEu",
+      "title": "SBF 030",
+      "handle": "sbf-030",
+      "originalSlug": "sbf-030",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 030",
+      "variantsCount": 5,
+      "totalStock": 4,
+      "imagesCount": 6
+    },
+    {
+      "id": "JfLVvg4cTKC4uS0iDPZi",
+      "title": "SBF 024",
+      "handle": "sbf-024",
+      "originalSlug": "sbf-024",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-CAS-PCH-M",
+      "variantsCount": 5,
+      "totalStock": 24,
+      "imagesCount": 0
+    },
+    {
+      "id": "LzkyglRQu4CQir1fOrN7",
+      "title": "SBF 039",
+      "handle": "sbf-039",
+      "originalSlug": "sbf-039",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 039",
+      "variantsCount": 5,
+      "totalStock": 2,
+      "imagesCount": 6
+    },
+    {
+      "id": "MstRbAY387hxVnmCiaY0",
+      "title": "SBF 033",
+      "handle": "sbf-033",
+      "originalSlug": "sbf-033",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 033",
+      "variantsCount": 5,
+      "totalStock": 4,
+      "imagesCount": 5
+    },
+    {
+      "id": "OeOtIUKD9M7o1wjmtX8N",
+      "title": "SBF 034",
+      "handle": "sbf-034",
+      "originalSlug": "sbf-034",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 034",
+      "variantsCount": 5,
+      "totalStock": 2,
+      "imagesCount": 6
+    },
+    {
+      "id": "POZqu0Pu538LbEhwqUYt",
+      "title": "SBF 019",
+      "handle": "sbf-019",
+      "originalSlug": "sbf-019",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 019",
+      "variantsCount": 5,
+      "totalStock": 20,
+      "imagesCount": 6
+    },
+    {
+      "id": "Q96VJIxJ1Qkj11Yayy1f",
+      "title": "SBF 051",
+      "handle": "sbf51",
+      "originalSlug": "sbf51",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF51-IND-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 5
+    },
+    {
+      "id": "QqHemmHtTlNVTAwuI2LI",
+      "title": "SBF 011",
+      "handle": "sbf-011",
+      "originalSlug": "sbf-011",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 011",
+      "variantsCount": 5,
+      "totalStock": 6,
+      "imagesCount": 5
+    },
+    {
+      "id": "RiIgvJkAwHInGsobSgL0",
+      "title": "SBF 052",
+      "handle": "sbf52",
+      "originalSlug": "sbf52",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF52-MUS-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 5
+    },
+    {
+      "id": "ThLbOaAazEA89QRTqhod",
+      "title": "SBF 001",
+      "handle": "sbf-001-2",
+      "originalSlug": "sbf-001-2",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-COTTON-PEA-M",
+      "variantsCount": 5,
+      "totalStock": 40,
+      "imagesCount": 6
+    },
+    {
+      "id": "WHe3GSwod2wLYjcuTTH2",
+      "title": "SBF 009",
+      "handle": "sbf-009",
+      "originalSlug": "sbf-009",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 009",
+      "variantsCount": 5,
+      "totalStock": 3,
+      "imagesCount": 5
+    },
+    {
+      "id": "WgtSK8PCr6d69rkdknaO",
+      "title": "SBF 025",
+      "handle": "sbf-025",
+      "originalSlug": "sbf-025",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 025",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 5
+    },
+    {
+      "id": "YSwvcz2Vgv7R4SRum8X7",
+      "title": "SBF 037",
+      "handle": "sbf-037",
+      "originalSlug": "sbf-037",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 037",
+      "variantsCount": 5,
+      "totalStock": 2,
+      "imagesCount": 6
+    },
+    {
+      "id": "ZcWnEoIZgMfk547zpVTC",
+      "title": "SBF 004",
+      "handle": "sbf-004",
+      "originalSlug": "sbf-004",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-MULCHA-IND-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 6
+    },
+    {
+      "id": "aaDq8K0ISLl8SluPS25M",
+      "title": "SBF061",
+      "handle": "sbf061",
+      "originalSlug": "sbf061",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF061-SAG-M",
+      "variantsCount": 5,
+      "totalStock": 50,
+      "imagesCount": 5
+    },
+    {
+      "id": "bF6IouBDcJ3rk5XudIlw",
+      "title": "SBF062",
+      "handle": "sbf062",
+      "originalSlug": "sbf062",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF062-IND-M",
+      "variantsCount": 5,
+      "totalStock": 50,
+      "imagesCount": 7
+    },
+    {
+      "id": "cDnBmGkBbiTL2Ukh79WG",
+      "title": "SBF 002",
+      "handle": "sbf-002",
+      "originalSlug": "sbf-002",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 002",
+      "variantsCount": 5,
+      "totalStock": 1,
+      "imagesCount": 5
+    },
+    {
+      "id": "dN56CgNOTw3AXnMGT7Q5",
+      "title": "SBF 054",
+      "handle": "sbf-054",
+      "originalSlug": "sbf-054",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF054-EME-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 4
+    },
+    {
+      "id": "eaoMiXr8D1JpzzJXBGhY",
+      "title": "SBF 027",
+      "handle": "sbf-027",
+      "originalSlug": "sbf-027",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 027",
+      "variantsCount": 5,
+      "totalStock": 3,
+      "imagesCount": 6
+    },
+    {
+      "id": "fDbZ7lQkyQl8UOqJtNXL",
+      "title": "SBF 015",
+      "handle": "sbf-015",
+      "originalSlug": "sbf-015",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 015",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 6
+    },
+    {
+      "id": "fTlAbMqqriY6XkQUt9z8",
+      "title": "SBF 042",
+      "handle": "sbf-042",
+      "originalSlug": "sbf-042",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 042",
+      "variantsCount": 5,
+      "totalStock": 16,
+      "imagesCount": 6
+    },
+    {
+      "id": "gHroa6YQWaVBjSnUJiqh",
+      "title": "SBF 056",
+      "handle": "sbf-056",
+      "originalSlug": "sbf-056",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF056-IND-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 4
+    },
+    {
+      "id": "h3S0kqRkQ8kyE3yzfRcG",
+      "title": "SBF 022",
+      "handle": "sbf-022",
+      "originalSlug": "sbf-022",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 022",
+      "variantsCount": 5,
+      "totalStock": 43,
+      "imagesCount": 5
+    },
+    {
+      "id": "hX5aCuUkkdh25Er2Z1rO",
+      "title": "SBF 035",
+      "handle": "sbf-035",
+      "originalSlug": "sbf-035",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-YEZBEE-LAV-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 6
+    },
+    {
+      "id": "iJxGX9ACvbfuE48hdJIn",
+      "title": "SBF060",
+      "handle": "sbf060",
+      "originalSlug": "sbf060",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF060-IND-M",
+      "variantsCount": 10,
+      "totalStock": 10,
+      "imagesCount": 13
+    },
+    {
+      "id": "izGsnIRRKCSbn3uKelQw",
+      "title": "SBF 023",
+      "handle": "sbf-023",
+      "originalSlug": "sbf-023",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 023",
+      "variantsCount": 5,
+      "totalStock": 26,
+      "imagesCount": 5
+    },
+    {
+      "id": "lBe5QYAGi3gyids6hu5c",
+      "title": "SBF 046",
+      "handle": "sbf-046",
+      "originalSlug": "sbf-046",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 046",
+      "variantsCount": 5,
+      "totalStock": 4,
+      "imagesCount": 6
+    },
+    {
+      "id": "mbjQnn8ZrLjijTFaZ7WM",
+      "title": "SBF 012",
+      "handle": "sbf-012",
+      "originalSlug": "sbf-012",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 012",
+      "variantsCount": 5,
+      "totalStock": 4,
+      "imagesCount": 4
+    },
+    {
+      "id": "mqY12JQQZCN8CLZddnAF",
+      "title": "SBF 013",
+      "handle": "sbf-013",
+      "originalSlug": "sbf-013",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 013",
+      "variantsCount": 5,
+      "totalStock": 2,
+      "imagesCount": 4
+    },
+    {
+      "id": "nR4TE5wUp7MeT84t67P9",
+      "title": "SBF 057",
+      "handle": "sbf-057",
+      "originalSlug": "sbf-056",
+      "isHandleDeduplicated": true,
+      "commonSku": "YZB-SBF056-IND-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 5
+    },
+    {
+      "id": "p3DwVUiomfhntzl3g1ZK",
+      "title": "SBF 010",
+      "handle": "sbf-010",
+      "originalSlug": "sbf-010",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 010",
+      "variantsCount": 5,
+      "totalStock": 3,
+      "imagesCount": 5
+    },
+    {
+      "id": "q14hHlVgcXvQf4Q46Nrq",
+      "title": "SBF 007",
+      "handle": "sbf-007",
+      "originalSlug": "sbf-007",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 007",
+      "variantsCount": 5,
+      "totalStock": 11,
+      "imagesCount": 5
+    },
+    {
+      "id": "qI8WHOG7gXheQGbPNKcZ",
+      "title": "SBN 001",
+      "handle": "sbn-001",
+      "originalSlug": "sbn-001",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBN 001",
+      "variantsCount": 12,
+      "totalStock": 11,
+      "imagesCount": 6
+    },
+    {
+      "id": "qPTOFUZjUjdXcaDeIB7E",
+      "title": "SBF 040",
+      "handle": "sbf-040",
+      "originalSlug": "sbf-040",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 040",
+      "variantsCount": 5,
+      "totalStock": 12,
+      "imagesCount": 5
+    },
+    {
+      "id": "rDq6DJpb3tk6eeod7HqD",
+      "title": "SBF 021",
+      "handle": "sbf-021",
+      "originalSlug": "sbf-021",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 021",
+      "variantsCount": 5,
+      "totalStock": 2,
+      "imagesCount": 5
+    },
+    {
+      "id": "rIdcCc3nBEhkHfYjePe2",
+      "title": "SBF 058",
+      "handle": "sbf-058",
+      "originalSlug": "sbf-058",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF058-WIN-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 4
+    },
+    {
+      "id": "rx06yA37OUw6yA4iiuvx",
+      "title": "SBF 049",
+      "handle": "sbf-049",
+      "originalSlug": "sbf-049",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-YEZBEE-WIN-M",
+      "variantsCount": 5,
+      "totalStock": 27,
+      "imagesCount": 6
+    },
+    {
+      "id": "sAUvSkoo9FgDVpHAkKKc",
+      "title": "036",
+      "handle": "036",
+      "originalSlug": "036",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-CAS-PCH-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 0
+    },
+    {
+      "id": "t5pfW7dBr5RZHjybeB84",
+      "title": "SBF 017",
+      "handle": "sbf-017",
+      "originalSlug": "sbf-017",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 017",
+      "variantsCount": 5,
+      "totalStock": 28,
+      "imagesCount": 4
+    },
+    {
+      "id": "tOpOzLK1j6Q3eIazCL8b",
+      "title": "SBF 048",
+      "handle": "sbf-048",
+      "originalSlug": "sbf-048",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 048",
+      "variantsCount": 5,
+      "totalStock": 3,
+      "imagesCount": 6
+    },
+    {
+      "id": "vYGFr2rCzlEUJIsDA2WK",
+      "title": "SBF 059",
+      "handle": "sbf-059",
+      "originalSlug": "sbf-059",
+      "isHandleDeduplicated": false,
+      "commonSku": "YZB-SBF059-WIN-M",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 3
+    },
+    {
+      "id": "wFOEncgOSdVyNfslnJR2",
+      "title": "SBF 045",
+      "handle": "sbf-045",
+      "originalSlug": "sbf-045",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 045",
+      "variantsCount": 5,
+      "totalStock": 5,
+      "imagesCount": 6
+    },
+    {
+      "id": "wND2dlWFBOrkxFW9Kdwv",
+      "title": "SBF 005",
+      "handle": "sbf-005",
+      "originalSlug": "sbf-005",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 005",
+      "variantsCount": 5,
+      "totalStock": 1,
+      "imagesCount": 4
+    },
+    {
+      "id": "wTjxpe66XM3lV1E86gZO",
+      "title": "SBF 044",
+      "handle": "sbf-044",
+      "originalSlug": "sbf-044",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 044",
+      "variantsCount": 5,
+      "totalStock": 10,
+      "imagesCount": 5
+    },
+    {
+      "id": "xrIxA8Bo97rELTORVBe8",
+      "title": "SBF 026",
+      "handle": "sbf-026",
+      "originalSlug": "sbf-026",
+      "isHandleDeduplicated": false,
+      "commonSku": "SBF 026",
+      "variantsCount": 5,
+      "totalStock": 3,
+      "imagesCount": 6
+    }
+  ]
+}

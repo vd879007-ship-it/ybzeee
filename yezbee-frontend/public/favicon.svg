@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D48B"/>
+      <stop offset="50%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#A8882E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1A1A1A"/>
+  <circle cx="32" cy="32" r="28" stroke="url(#goldGrad)" stroke-width="1.5"/>
+  <!-- Crown icon simplified -->
+  <path d="M32 20 L18 38 L24 32 L32 22 L40 32 L46 38 L32 20Z" fill="url(#goldGrad)" opacity="0.9"/>
+  <circle cx="32" cy="22" r="3" fill="#E8D48B"/>
+  <rect x="20" y="38" width="24" height="4" rx="2" fill="url(#goldGrad)" opacity="0.6"/>
+  <!-- YEZ BEE small text -->
+  <text x="32" y="55" font-family="'Inter', Arial, sans-serif" font-size="6" font-weight="600" fill="#B8B0A0" text-anchor="middle" letter-spacing="2">YEZ BEE</text>
+</svg>

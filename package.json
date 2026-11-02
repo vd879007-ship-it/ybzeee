@@ -1,0 +1,35 @@
+{
+  "name": "yezbee-shopify-migration",
+  "version": "1.0.0",
+  "description": "Production Firebase Firestore & Cloudinary to Shopify Migration System for YEZ BEE Fashion",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "npm --prefix yezbee-frontend run dev",
+    "test": "node test/variant-matcher.test.js && node test/verification.test.js",
+    "test:shopify": "node test-shopify.js",
+    "audit": "node src/index.js --mode=audit",
+    "verify": "node src/index.js --mode=verify",
+    "verify:all": "node src/index.js --mode=verify --all",
+    "inventory:fix:sbf014": "node src/index.js --mode=fix-inventory --slug=sbf-014",
+    "inventory:repair": "node src/index.js --mode=repair-mismatches",
+    "preview": "node src/index.js --mode=dry-run",
+    "migrate:test": "node src/index.js --mode=test-one",
+    "migrate:all": "node src/index.js --mode=all",
+    "migrate:update": "node src/index.js --mode=update",
+    "report": "node src/index.js --mode=report"
+  },
+  "keywords": [
+    "shopify",
+    "firebase",
+    "migration",
+    "firestore",
+    "cloudinary"
+  ],
+  "author": "YEZ BEE",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "firebase-admin": "^14.5.0"
+  }
+}

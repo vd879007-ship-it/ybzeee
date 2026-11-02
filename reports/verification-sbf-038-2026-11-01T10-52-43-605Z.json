@@ -1,0 +1,58 @@
+{
+  "verifiedAt": "2026-11-01T10:52:43.605Z",
+  "firestoreDocId": "2xcewteSVfrzcctS1qeY",
+  "shopifyProductId": "gid://shopify/Product/9625946914870",
+  "handle": "sbf-038",
+  "status": "PASSED",
+  "fieldChecks": [
+    {
+      "field": "Title",
+      "sourceVal": "SBF 038",
+      "shopifyVal": "SBF 038",
+      "status": "PASS"
+    },
+    {
+      "field": "Handle",
+      "sourceVal": "sbf-038",
+      "shopifyVal": "sbf-038",
+      "status": "PASS"
+    },
+    {
+      "field": "Status",
+      "sourceVal": "ACTIVE",
+      "shopifyVal": "ACTIVE",
+      "status": "PASS"
+    },
+    {
+      "field": "Vendor",
+      "sourceVal": "YEZ BEE",
+      "shopifyVal": "YEZ BEE",
+      "status": "PASS"
+    },
+    {
+      "field": "Product Type",
+      "sourceVal": "FEEDING",
+      "shopifyVal": "FEEDING",
+      "status": "PASS"
+    },
+    {
+      "field": "Variant Count",
+      "sourceVal": 5,
+      "shopifyVal": 5,
+      "status": "PASS"
+    },
+    {
+      "field": "Valid Media Count",
+      "sourceVal": 6,
+      "shopifyVal": 6,
+      "status": "PASS"
+    }
+  ],
+  "variantAudit": {
+    "allVariantsMatch": true,
+    "allSkusMatch": true,
+    "allPricesMatch": true,
+    "allStockMatch": true
+  },
+  "metafieldsFoundCount": 10
+}

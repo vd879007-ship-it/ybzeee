@@ -1,0 +1,772 @@
+{
+  "summary": {
+    "verifiedAt": "2026-11-01T11:49:34.093Z",
+    "locationId": "gid://shopify/Location/90879655990",
+    "totalFirestoreProducts": 63,
+    "totalShopifyProducts": 63,
+    "migratedCount": 63,
+    "pendingMigrationCount": 0,
+    "passedCount": 61,
+    "failedCount": 2,
+    "duplicateShopifyProductsCount": 0,
+    "totalCatalogExpectedStock": 747,
+    "totalLiveShopifyStock": 687,
+    "totalVerifiedVariants": 327,
+    "warningsCount": 25
+  },
+  "duplicateShopifyProducts": [],
+  "missingProducts": [],
+  "verifiedSummary": [
+    {
+      "firestoreDocId": "2xcewteSVfrzcctS1qeY",
+      "shopifyProductId": "gid://shopify/Product/9625946914870",
+      "title": "SBF 038",
+      "handle": "sbf-038",
+      "status": "PASS",
+      "expectedStock": 4,
+      "shopifyStock": 4,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "4NzmKBXMMk79mq3oX5wW",
+      "shopifyProductId": "gid://shopify/Product/9626216038454",
+      "title": "SBF 014",
+      "handle": "sbf-014",
+      "status": "PASS",
+      "expectedStock": 4,
+      "shopifyStock": 4,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "61aOgJYkm9FFGJNKXVVg",
+      "shopifyProductId": "gid://shopify/Product/9626298548278",
+      "title": "SBF 018",
+      "handle": "sbf-018",
+      "status": "PASS",
+      "expectedStock": 23,
+      "shopifyStock": 23,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "6G5tq7UHwZMt7uA9lqN0",
+      "shopifyProductId": "gid://shopify/Product/9626299007030",
+      "title": "Maternity dress feeding",
+      "handle": "maternity-dress-feeding",
+      "status": "PASS",
+      "expectedStock": 50,
+      "shopifyStock": 50,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "7fPKVLhNthN1Uwz3iTYG",
+      "shopifyProductId": "gid://shopify/Product/9626299564086",
+      "title": "SBF 020",
+      "handle": "sbf-020",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "7ncwh0Baa5bloWjgF6Zi",
+      "shopifyProductId": "gid://shopify/Product/9626300186678",
+      "title": "SBF 053",
+      "handle": "sbf-053",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "94CbCnNqCspu6vzGLnKA",
+      "shopifyProductId": "gid://shopify/Product/9626300907574",
+      "title": "SBF 029",
+      "handle": "sbf-029",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "9H2wnK19eYUKs0uSdSv9",
+      "shopifyProductId": "gid://shopify/Product/9626301366326",
+      "title": "SBF 031",
+      "handle": "sbf-031",
+      "status": "PASS",
+      "expectedStock": 3,
+      "shopifyStock": 3,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "Abox1VoFIKikvp4iy0BI",
+      "shopifyProductId": "gid://shopify/Product/9626301825078",
+      "title": "SBF063",
+      "handle": "sbf063",
+      "status": "FAIL",
+      "expectedStock": 50,
+      "shopifyStock": 40,
+      "errors": [
+        "Variant Size \"M\" Stock mismatch: expected 10, got 0 in Shopify"
+      ],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "BLU1x3z8xl5ApcxDu51L",
+      "shopifyProductId": "gid://shopify/Product/9626302382134",
+      "title": "SBF 003",
+      "handle": "sbf-003",
+      "status": "PASS",
+      "expectedStock": 16,
+      "shopifyStock": 16,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "EB0b3bBAXsP4mL6TZbR5",
+      "shopifyProductId": "gid://shopify/Product/9626302971958",
+      "title": "SBF 006",
+      "handle": "sbf-006",
+      "status": "PASS",
+      "expectedStock": 14,
+      "shopifyStock": 14,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "HLeL25SdNir670wMzyYS",
+      "shopifyProductId": "gid://shopify/Product/9626303529014",
+      "title": "SPF 055",
+      "handle": "spf-055",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "Hpwf16kpH10rDZaxh8sS",
+      "shopifyProductId": "gid://shopify/Product/9626304151606",
+      "title": "SBF 047  FEEDING DRESS",
+      "handle": "sbf-047-feeding-dress",
+      "status": "PASS",
+      "expectedStock": 9,
+      "shopifyStock": 9,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "I7dzePLq4ShrcJfvruCJ",
+      "shopifyProductId": "gid://shopify/Product/9626304708662",
+      "title": "SBF 001",
+      "handle": "sbf-001",
+      "status": "PASS",
+      "expectedStock": 43,
+      "shopifyStock": 43,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "IXYMpraqGiVrkO5zD9Ty",
+      "shopifyProductId": "gid://shopify/Product/9626304970806",
+      "title": "SBF 028",
+      "handle": "sbf-028",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "IrujeJydeAcr6PeXAgQj",
+      "shopifyProductId": "gid://shopify/Product/9626305429558",
+      "title": "SBF 043",
+      "handle": "sbf-043",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "J2DK47qeFrkcjXYNuAcK",
+      "shopifyProductId": "gid://shopify/Product/9626305855542",
+      "title": "SBF 032",
+      "handle": "sbf-032",
+      "status": "PASS",
+      "expectedStock": 4,
+      "shopifyStock": 4,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "JCSPXcRq0U66CN43tS3g",
+      "shopifyProductId": "gid://shopify/Product/9626306314294",
+      "title": "SBF 041",
+      "handle": "sbf-041",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "JT7MGpJ2uTg7Ey1xpaEu",
+      "shopifyProductId": "gid://shopify/Product/9626306936886",
+      "title": "SBF 030",
+      "handle": "sbf-030",
+      "status": "PASS",
+      "expectedStock": 4,
+      "shopifyStock": 4,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "JfLVvg4cTKC4uS0iDPZi",
+      "shopifyProductId": "gid://shopify/Product/9626307330102",
+      "title": "SBF 024",
+      "handle": "sbf-024",
+      "status": "PASS",
+      "expectedStock": 24,
+      "shopifyStock": 24,
+      "errors": [],
+      "warnings": [
+        "Product \"SBF 024\" has 0 images in Firestore catalog."
+      ]
+    },
+    {
+      "firestoreDocId": "LzkyglRQu4CQir1fOrN7",
+      "shopifyProductId": "gid://shopify/Product/9626307723318",
+      "title": "SBF 039",
+      "handle": "sbf-039",
+      "status": "PASS",
+      "expectedStock": 2,
+      "shopifyStock": 2,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "MstRbAY387hxVnmCiaY0",
+      "shopifyProductId": "gid://shopify/Product/9626308214838",
+      "title": "SBF 033",
+      "handle": "sbf-033",
+      "status": "PASS",
+      "expectedStock": 4,
+      "shopifyStock": 4,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "OeOtIUKD9M7o1wjmtX8N",
+      "shopifyProductId": "gid://shopify/Product/9626308739126",
+      "title": "SBF 034",
+      "handle": "sbf-034",
+      "status": "PASS",
+      "expectedStock": 2,
+      "shopifyStock": 2,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "POZqu0Pu538LbEhwqUYt",
+      "shopifyProductId": "gid://shopify/Product/9626309296182",
+      "title": "SBF 019",
+      "handle": "sbf-019",
+      "status": "PASS",
+      "expectedStock": 20,
+      "shopifyStock": 20,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "Q96VJIxJ1Qkj11Yayy1f",
+      "shopifyProductId": "gid://shopify/Product/9626309754934",
+      "title": "SBF 051",
+      "handle": "sbf51",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "QqHemmHtTlNVTAwuI2LI",
+      "shopifyProductId": "gid://shopify/Product/9626310115382",
+      "title": "SBF 011",
+      "handle": "sbf-011",
+      "status": "PASS",
+      "expectedStock": 6,
+      "shopifyStock": 6,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "RiIgvJkAwHInGsobSgL0",
+      "shopifyProductId": "gid://shopify/Product/9626310705206",
+      "title": "SBF 052",
+      "handle": "sbf52",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "ThLbOaAazEA89QRTqhod",
+      "shopifyProductId": "gid://shopify/Product/9626311131190",
+      "title": "SBF 001",
+      "handle": "sbf-001-2",
+      "status": "PASS",
+      "expectedStock": 40,
+      "shopifyStock": 40,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "WHe3GSwod2wLYjcuTTH2",
+      "shopifyProductId": "gid://shopify/Product/9626311655478",
+      "title": "SBF 009",
+      "handle": "sbf-009",
+      "status": "PASS",
+      "expectedStock": 3,
+      "shopifyStock": 3,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "WgtSK8PCr6d69rkdknaO",
+      "shopifyProductId": "gid://shopify/Product/9626312114230",
+      "title": "SBF 025",
+      "handle": "sbf-025",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "YSwvcz2Vgv7R4SRum8X7",
+      "shopifyProductId": "gid://shopify/Product/9626312736822",
+      "title": "SBF 037",
+      "handle": "sbf-037",
+      "status": "PASS",
+      "expectedStock": 2,
+      "shopifyStock": 2,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "ZcWnEoIZgMfk547zpVTC",
+      "shopifyProductId": "gid://shopify/Product/9626313359414",
+      "title": "SBF 004",
+      "handle": "sbf-004",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "aaDq8K0ISLl8SluPS25M",
+      "shopifyProductId": "gid://shopify/Product/9626313916470",
+      "title": "SBF061",
+      "handle": "sbf061",
+      "status": "PASS",
+      "expectedStock": 50,
+      "shopifyStock": 50,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "bF6IouBDcJ3rk5XudIlw",
+      "shopifyProductId": "gid://shopify/Product/9626314571830",
+      "title": "SBF062",
+      "handle": "sbf062",
+      "status": "FAIL",
+      "expectedStock": 50,
+      "shopifyStock": 0,
+      "errors": [
+        "Variant Size \"M\" Stock mismatch: expected 10, got 0 in Shopify",
+        "Variant Size \"L\" Stock mismatch: expected 10, got 0 in Shopify",
+        "Variant Size \"XL\" Stock mismatch: expected 10, got 0 in Shopify",
+        "Variant Size \"2XL\" Stock mismatch: expected 10, got 0 in Shopify",
+        "Variant Size \"3XL\" Stock mismatch: expected 10, got 0 in Shopify"
+      ],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "cDnBmGkBbiTL2Ukh79WG",
+      "shopifyProductId": "gid://shopify/Product/9626314997814",
+      "title": "SBF 002",
+      "handle": "sbf-002",
+      "status": "PASS",
+      "expectedStock": 1,
+      "shopifyStock": 1,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "dN56CgNOTw3AXnMGT7Q5",
+      "shopifyProductId": "gid://shopify/Product/9626315423798",
+      "title": "SBF 054",
+      "handle": "sbf-054",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 2 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "eaoMiXr8D1JpzzJXBGhY",
+      "shopifyProductId": "gid://shopify/Product/9626315817014",
+      "title": "SBF 027",
+      "handle": "sbf-027",
+      "status": "PASS",
+      "expectedStock": 3,
+      "shopifyStock": 3,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "fDbZ7lQkyQl8UOqJtNXL",
+      "shopifyProductId": "gid://shopify/Product/9626316472374",
+      "title": "SBF 015",
+      "handle": "sbf-015",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "fTlAbMqqriY6XkQUt9z8",
+      "shopifyProductId": "gid://shopify/Product/9626317029430",
+      "title": "SBF 042",
+      "handle": "sbf-042",
+      "status": "PASS",
+      "expectedStock": 16,
+      "shopifyStock": 16,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "gHroa6YQWaVBjSnUJiqh",
+      "shopifyProductId": "gid://shopify/Product/9626317586486",
+      "title": "SBF 056",
+      "handle": "sbf-056",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "h3S0kqRkQ8kyE3yzfRcG",
+      "shopifyProductId": "gid://shopify/Product/9626318078006",
+      "title": "SBF 022",
+      "handle": "sbf-022",
+      "status": "PASS",
+      "expectedStock": 43,
+      "shopifyStock": 43,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "hX5aCuUkkdh25Er2Z1rO",
+      "shopifyProductId": "gid://shopify/Product/9626318471222",
+      "title": "SBF 035",
+      "handle": "sbf-035",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "iJxGX9ACvbfuE48hdJIn",
+      "shopifyProductId": "gid://shopify/Product/9626318733366",
+      "title": "SBF060",
+      "handle": "sbf060",
+      "status": "PASS",
+      "expectedStock": 10,
+      "shopifyStock": 10,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "izGsnIRRKCSbn3uKelQw",
+      "shopifyProductId": "gid://shopify/Product/9626319126582",
+      "title": "SBF 023",
+      "handle": "sbf-023",
+      "status": "PASS",
+      "expectedStock": 26,
+      "shopifyStock": 26,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "lBe5QYAGi3gyids6hu5c",
+      "shopifyProductId": "gid://shopify/Product/9626319355958",
+      "title": "SBF 046",
+      "handle": "sbf-046",
+      "status": "PASS",
+      "expectedStock": 4,
+      "shopifyStock": 4,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "mbjQnn8ZrLjijTFaZ7WM",
+      "shopifyProductId": "gid://shopify/Product/9626319552566",
+      "title": "SBF 012",
+      "handle": "sbf-012",
+      "status": "PASS",
+      "expectedStock": 4,
+      "shopifyStock": 4,
+      "errors": [],
+      "warnings": [
+        "Skipped 2 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "mqY12JQQZCN8CLZddnAF",
+      "shopifyProductId": "gid://shopify/Product/9626319781942",
+      "title": "SBF 013",
+      "handle": "sbf-013",
+      "status": "PASS",
+      "expectedStock": 2,
+      "shopifyStock": 2,
+      "errors": [],
+      "warnings": [
+        "Skipped 2 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "nR4TE5wUp7MeT84t67P9",
+      "shopifyProductId": "gid://shopify/Product/9626320044086",
+      "title": "SBF 057",
+      "handle": "sbf-057",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "p3DwVUiomfhntzl3g1ZK",
+      "shopifyProductId": "gid://shopify/Product/9626320273462",
+      "title": "SBF 010",
+      "handle": "sbf-010",
+      "status": "PASS",
+      "expectedStock": 3,
+      "shopifyStock": 3,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "q14hHlVgcXvQf4Q46Nrq",
+      "shopifyProductId": "gid://shopify/Product/9626320502838",
+      "title": "SBF 007",
+      "handle": "sbf-007",
+      "status": "PASS",
+      "expectedStock": 11,
+      "shopifyStock": 11,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "qI8WHOG7gXheQGbPNKcZ",
+      "shopifyProductId": "gid://shopify/Product/9626320732214",
+      "title": "SBN 001",
+      "handle": "sbn-001",
+      "status": "PASS",
+      "expectedStock": 11,
+      "shopifyStock": 11,
+      "errors": [],
+      "warnings": [
+        "Skipped 2 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "qPTOFUZjUjdXcaDeIB7E",
+      "shopifyProductId": "gid://shopify/Product/9626321059894",
+      "title": "SBF 040",
+      "handle": "sbf-040",
+      "status": "PASS",
+      "expectedStock": 12,
+      "shopifyStock": 12,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "rDq6DJpb3tk6eeod7HqD",
+      "shopifyProductId": "gid://shopify/Product/9626321322038",
+      "title": "SBF 021",
+      "handle": "sbf-021",
+      "status": "PASS",
+      "expectedStock": 2,
+      "shopifyStock": 2,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "rIdcCc3nBEhkHfYjePe2",
+      "shopifyProductId": "gid://shopify/Product/9626321485878",
+      "title": "SBF 058",
+      "handle": "sbf-058",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "rx06yA37OUw6yA4iiuvx",
+      "shopifyProductId": "gid://shopify/Product/9626321682486",
+      "title": "SBF 049",
+      "handle": "sbf-049",
+      "status": "PASS",
+      "expectedStock": 27,
+      "shopifyStock": 27,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "sAUvSkoo9FgDVpHAkKKc",
+      "shopifyProductId": "gid://shopify/Product/9626321846326",
+      "title": "036",
+      "handle": "036",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Product \"036\" has 0 images in Firestore catalog."
+      ]
+    },
+    {
+      "firestoreDocId": "t5pfW7dBr5RZHjybeB84",
+      "shopifyProductId": "gid://shopify/Product/9626322010166",
+      "title": "SBF 017",
+      "handle": "sbf-017",
+      "status": "PASS",
+      "expectedStock": 28,
+      "shopifyStock": 28,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "tOpOzLK1j6Q3eIazCL8b",
+      "shopifyProductId": "gid://shopify/Product/9626322206774",
+      "title": "SBF 048",
+      "handle": "sbf-048",
+      "status": "PASS",
+      "expectedStock": 3,
+      "shopifyStock": 3,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "vYGFr2rCzlEUJIsDA2WK",
+      "shopifyProductId": "gid://shopify/Product/9626322370614",
+      "title": "SBF 059",
+      "handle": "sbf-059",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": [
+        "Skipped 2 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "wFOEncgOSdVyNfslnJR2",
+      "shopifyProductId": "gid://shopify/Product/9626322403382",
+      "title": "SBF 045",
+      "handle": "sbf-045",
+      "status": "PASS",
+      "expectedStock": 5,
+      "shopifyStock": 5,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "wND2dlWFBOrkxFW9Kdwv",
+      "shopifyProductId": "gid://shopify/Product/9626322436150",
+      "title": "SBF 005",
+      "handle": "sbf-005",
+      "status": "PASS",
+      "expectedStock": 1,
+      "shopifyStock": 1,
+      "errors": [],
+      "warnings": [
+        "Skipped 1 embedded Base64 image(s) in Firestore catalog (preserved Cloudinary HTTP URLs)."
+      ]
+    },
+    {
+      "firestoreDocId": "wTjxpe66XM3lV1E86gZO",
+      "shopifyProductId": "gid://shopify/Product/9626322468918",
+      "title": "SBF 044",
+      "handle": "sbf-044",
+      "status": "PASS",
+      "expectedStock": 10,
+      "shopifyStock": 10,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "firestoreDocId": "xrIxA8Bo97rELTORVBe8",
+      "shopifyProductId": "gid://shopify/Product/9626322501686",
+      "title": "SBF 026",
+      "handle": "sbf-026",
+      "status": "PASS",
+      "expectedStock": 3,
+      "shopifyStock": 3,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}
